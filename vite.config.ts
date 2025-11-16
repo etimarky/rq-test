@@ -12,6 +12,6 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-  plugins: [eslint({ cache: false, useEslintrc: true }), react(), tsconfigPaths()],
+  plugins: [react(), tsconfigPaths()],
   assetsInclude: ['**/*.md'],
 });

@@ -10,7 +10,7 @@ type MenuItem = Required<MenuProps>['items'][number];
 
 const menuItems: MenuItem[] = [
   { key: '/', label: 'Home', icon: <HomeFilled /> },
-  { key: '/list', label: 'List', icon: <UnorderedListOutlined /> },
+  { key: '/pokemon', label: 'List', icon: <UnorderedListOutlined /> },
 ];
 
 export const LayoutWrapper = () => {
